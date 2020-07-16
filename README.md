@@ -1,10 +1,10 @@
 # b2w-game-app-backend-quarkus
 
-B2W Game (quarkus)
+B2W Game (quarkus, resteasy, mongo-panache)
 
-"Fast and furious" keeper, all-in-one, simple (though hard to scale)
+[Dojo Rules](app/game-planet-service-api/src/site/markdown/specs.md)
 
-See app dir for sources. Uses quarkus, resteasy, mongodb
+"Fast and furious" keeper, all-in-one, simple (though hard to scale). Go to app dir for sources.
 
 ## Running the app in dev mode
 
