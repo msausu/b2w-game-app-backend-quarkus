@@ -2,7 +2,7 @@
 
 B2W Game (quarkus, resteasy, mongo-panache)
 
-[Dojo Rules](app/game-planet-service-api/src/site/markdown/specs.md)
+[Dojo Rules](https://github.com/msausu/b2w-game-app-backend-java/blob/master/app/game-planet-service-api/src/site/markdown/specs.md)
 
 "Fast and furious" (young) keeper, all-in-one, simple (though hard to scale). Go to app dir for sources.
 
@@ -24,6 +24,8 @@ Produces the `b2w-game-app-backend-quarkus-1.0.0-runner.jar` file in the `/targe
 ## How to run with Java
 
 Usual exec: `java -jar target/b2w-game-app-backend-quarkus-1.0.0-runner.jar`.
+
+![Build](./data/b2w-game-test.gif)
 
 ## How to create a native executable
 
