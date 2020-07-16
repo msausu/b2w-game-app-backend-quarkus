@@ -4,7 +4,7 @@ B2W Game (quarkus, resteasy, mongo-panache)
 
 [Dojo Rules](app/game-planet-service-api/src/site/markdown/specs.md)
 
-"Fast and furious" keeper, all-in-one, simple (though hard to scale). Go to app dir for sources.
+"Fast and furious" (young) keeper, all-in-one, simple (though hard to scale). Go to app dir for sources.
 
 ## Running the app in dev mode
 
