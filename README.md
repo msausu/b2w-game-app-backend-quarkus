@@ -23,13 +23,15 @@ Produces the `b2w-game-app-backend-quarkus-1.0.0-runner.jar` file in the `/targe
 
 ## How to run with Java
 
-The app is runnable using `java -jar target/b2w-game-app-backend-quarkus-1.0.0-runner.jar`.
+Usual exec: `java -jar target/b2w-game-app-backend-quarkus-1.0.0-runner.jar`.
 
-## How to create a native executable (no java to run, but GraalVM/Mandrel needed to build)
+## How to create a native executable
 
-You can create a native executable: `mvn clean package -Pnative`-Dmaven.test.test.skip=true`
+No java to run (but GraalVM/Mandrel needed to build)
 
-You can then execute natively: `./target/b2w-game-app-backend-quarkus-1.0.0-runner`
+Create a native executable: `mvn clean package -Pnative -Dmaven.test.test.skip=true`
+
+Execute natively: `./target/b2w-game-app-backend-quarkus-1.0.0-runner`
 
 ## Run
 
