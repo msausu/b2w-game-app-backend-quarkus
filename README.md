@@ -1,5 +1,3 @@
-<script src="https://asciinema.org/a/14.js" id="asciicast-14" async></script>
-
 # b2w-game-app-backend-quarkus
 
 B2W Game (quarkus)
@@ -14,7 +12,7 @@ See app dir for sources. Uses quarkus, resteasy, mongodb
 mvn quarkus:dev
 ```
 
-## Packaging 
+## Package 
 
 ```
 mvn clean package
@@ -23,15 +21,17 @@ mvn clean package
 Produces the `b2w-game-app-backend-quarkus-1.0.0-runner.jar` file in the `/target` directory.
 (it’s not an _über-jar_ as the dependencies are copied into the `target/lib` directory)
 
-## Running 
+## How to run with Java
 
 The app is runnable using `java -jar target/b2w-game-app-backend-quarkus-1.0.0-runner.jar`.
 
-## Creating a native executable (GraalVM/mandrel needed)
+## How to create a native executable (no java to run, but GraalVM/Mandrel needed to build)
 
 You can create a native executable: `mvn clean package -Pnative`-Dmaven.test.test.skip=true`
 
 You can then execute natively: `./target/b2w-game-app-backend-quarkus-1.0.0-runner`
 
-<link rel="alternate" type="application/x-asciicast" href="data/b2w-game.cast">
+## Run
+
+![Console](./data/b2w-game.svg)
 
